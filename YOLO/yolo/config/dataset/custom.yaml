@@ -1,0 +1,12 @@
+# 데이터 루트
+path: /shared/home/kdd/HZ/capstone/YOLO/data/custom
+
+# phase 폴더 이름 (images/labels 둘 다 동일 구조)
+train: train           # images/train, labels/train
+validation: validation       # images/val,   labels/val
+
+class_num: 2
+class_list: ['fl', 'sm']
+
+# COCO JSON 파일명 패턴 —— {phase} 부분은 train/val 자동 치환
+# coco_json: labels/{phase}/annotations_{phase}.json

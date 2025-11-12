@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "image_path": "/shared/home/kdd/HZ/capstone/YOLO/demo/images/inference/0087_FL_FWW_00003.jpg",
+    "image_size": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "detections": []
+}
